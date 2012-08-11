@@ -1,0 +1,257 @@
+/*
+	Template Name: PHP Left Nav Mining 01
+	Template URI: http://freewebtemplates.me
+	Description: An easy to edit Mining theme website template with PHP Includes for header, footer and auto-updating copyright year.
+	Version: 1.0
+	Author: Ed Zivkovic
+	Author URI: http://freewebtemplates.me
+	Tags: PHP, Includes, Mining, Green, CSS, Fixed Width, Graphics, 2 Columns, Left Navigation, No Tables, 
+*/
+
+/*
+	Template by Ed Zivkovic released under the
+	Creative Commons Attribution 2.5 License:
+	http://creativecommons.org/licenses/by/2.5/au/
+*/
+
+body {
+	font-family: "Trebuchet MS", Futura, Arial, Helvetica, Verdana, sans-serif;
+	color: #000;
+	text-align: center;
+	font-size: 90%;
+	background-color: #787860;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	letter-spacing: 0.1em;
+}
+
+a {
+	text-decoration: none;
+}
+	
+div#mainwrap {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	text-align: left;
+}
+
+div#header {
+	color: #9C9CFE;
+	
+	height: 150px;
+	width: 100%;
+}
+
+div#header h1 {
+	color: #484830;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+div#topnav {
+	color: #F0F0D8;
+	padding: 8px;
+	font-size: 90%;
+	background-color: #D6D4AE;
+	text-align: center;
+	font-weight: bold;
+}
+
+div#topnav a {
+	color: #484830;
+	border-bottom: 0px solid #484830;
+}
+
+div#topnav a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+div#leftnavwrap {
+	float: left;
+	width: 160px;
+	padding-top: 5px;
+	font-size: 90%;
+}
+
+div#leftnavwrap h3 {
+	font-family: Arial, "Trebuchet MS", Futura, Helvetica, Verdana, sans-serif;
+	color: #484830;
+	margin: 15px 0 0;
+	padding: 6px;
+	font-size: 1.7em;
+	text-align: center;
+}
+	
+div#leftnavwrap ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+	
+div#leftnavwrap ul li {
+	margin-top: 8px;
+}
+	
+div#leftnavwrap ul li a {
+	display: block;
+	width: 160px;
+	padding: 7px 5px 7px 10px;
+	color: #484830;
+	background-color: #E3EBB5;
+	font-weight: bold;
+}
+
+div#leftnavwrap ul li a:hover {
+	color: #000;
+	background-color: #D6D4AE;
+}
+
+div#contentwrap {
+	background-color: #F0F0D8;
+}
+
+div#breadcrumb {
+	color: #787860;
+	padding: 8px 8px 8px 0;
+	font-size: 85%;
+	background-color: #F0F0D8;
+	margin-left: 200px;
+}
+
+div#breadcrumb a {
+	color: #787860;
+	border-bottom: 1px solid #787860;
+}
+
+div#breadcrumb a:hover {
+	color: #000;
+	border-bottom: 1px dashed #000;
+}
+
+div#content {
+	padding: 20px;
+	margin-left: 200px;
+	background-color: #FFF;
+}
+
+div#content p {
+	line-height: 170%;
+}
+
+div#content h2 {
+	color: #484830;
+	border-bottom: 2px solid #F0F0D8;
+	padding-bottom: 6px;
+}
+
+div#content h3 {
+	color: #484830;
+	border-bottom: 2px solid #F0F0D8;
+	padding-bottom: 6px;
+}
+
+div#content a {
+	color: #0000FF;
+	border-bottom: 1px solid #0000FF;
+}
+
+div#content a:visited {
+	color: #0000FF;
+	border-bottom: 1px solid #0000FF;
+}
+
+div#content a:hover {
+	color: #787860;
+	border-bottom: 2px dashed #787860;
+}
+
+div#bottomnav {
+	color: #F0F0D8;
+	padding: 8px;
+	font-size: 90%;
+	background-color: #D6D4AE;
+	text-align: center;
+}
+
+div#bottomnav a {
+	color: #484830;
+	border-bottom: 0px solid #484830;
+}
+
+div#bottomnav a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+div#copyright {
+	color: #787860;
+	padding: 8px;
+	font-size: 80%;
+	background-color: #303030;
+}
+
+div#copyright a {
+	color: #787860;
+	border-bottom: 1px dashed #787860;
+}
+
+div#copyright a:hover {
+	color: #D6D4AE;
+	border-bottom: 1px solid #D6D4AE;
+}
+
+div#credit {
+	color: #303030;
+	padding: 8px;
+	font-size: 80%;
+	background-color: #787860;
+}
+
+div#credit a {
+	color: #303030;
+	border-bottom: 0px solid #303030;
+}
+
+div#credit a:hover {
+	color: #D6D4AE;
+	border-bottom: 0px solid #D6D4AE;
+}
+		
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+} 
+
+.center {
+	text-align: center;
+}
+	
+div#clear {
+	clear: both;
+}
+
+.box {
+	color: #303030; 
+	border: 1px solid #D6D4AE; 
+	background-color: #F0F0D8; 
+	padding: 10px 12px 12px;
+	margin: 20px 70px;
+	text-align: justify;
+	font-size: 90%;
+	line-height: 180%;
+}
+
+.warning {
+	color: #FF0000;
+}
+		
+		

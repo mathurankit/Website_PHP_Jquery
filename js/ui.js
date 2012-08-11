@@ -1,0 +1,1 @@
+ $('#date').datepicker({dateFormat:'yy/mm/dd',minDate:'-1m',maxDate:0,showButtonPanel:true,showAnim:'show'});
